@@ -1,5 +1,5 @@
 # Write your check_for_name function here:
-def check_for_name(sentence, name):
+def check_for_name(sentence, name) -> object:
   return name.lower() in sentence.lower()
 
 # Uncomment these function calls to test your function:

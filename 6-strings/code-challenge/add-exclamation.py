@@ -1,6 +1,6 @@
 # Write your add_exclamation function here:
-def add_exclamation(word):
-  while(len(word) < 20):
+def add_exclamation(word: object):
+  while len(word) < 20:
     word += "!"
   return word
 
